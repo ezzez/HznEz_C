@@ -10,5 +10,5 @@ for row in data:
         if row[0].split('.')[1] == '4' and row[0].split('.')[2] == '18':
             result.append(float(row[-1]))
 
-plt.plot(result, 'pink')
+plt.plot(result, 'hotpink')
 plt.show()
